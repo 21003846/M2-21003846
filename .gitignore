@@ -10,3 +10,5 @@ gradle-app.setting
 # Intellij files
 .idea/
 gradletuto.iml
+
+java -cp $GROOVY_HOME/libs/groovy-2.3.7.jar:build/libs/gradletuto.jar groovy.fr.uvsq.doosa.gradletuto.Main

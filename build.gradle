@@ -5,5 +5,5 @@ mavenCentral()
 }
 
 dependencies {
-compile 'org.codehaus.groovy:groovy-all:2.4.5'
+compile 'org.codehaus.groovy:groovy-all:2.3.7'
 }
