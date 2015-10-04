@@ -1,4 +1,11 @@
+
+plugins {
+id 'com.github.johnrengelman.shadow' version '1.2.2'
+}
+
 apply plugin: 'groovy'
+apply plugin: 'application'
+mainClassName = "Gradletuto.Main"
 
 repositories {
 mavenCentral()
@@ -6,4 +13,6 @@ mavenCentral()
 
 dependencies {
 compile 'org.codehaus.groovy:groovy-all:2.3.7'
+testCompile 'junit:junit:4.+'
 }
+

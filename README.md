@@ -49,5 +49,5 @@ BUILD SUCCESSFUL
 Total time: 1 mins 10.772 secs
 $ ls build/libs
 gradletuto.jar
-$ java -cp $GROOVY_HOME/lib/groovy-2.4.5.jar:build/libs/gradletuto.jar fr.uvsq.doosa.gradletuto.Main
+$ java -cp $GROOVY_HOME/lib/groovy-2.3.7.jar:build/libs/Gradletuto.jar Gradletuto.Main
 Hello
